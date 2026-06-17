@@ -2,7 +2,10 @@
 
 ## Spectral Features 
 
-![sad.png](images/sad.png)
+![angry.png](images/angry.png)
+![happy.png](images/happy.png)
+![sad.png](images/neutral.png)
+![neutral.png](images/sad.png)
 
 ### BaseLines
 
