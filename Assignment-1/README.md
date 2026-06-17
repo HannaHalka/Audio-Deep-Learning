@@ -19,3 +19,22 @@
 
 ## Self-Supervised Approach
 
+| Model        | Accuracy |  UAR   | Macro F1-score |
+|:-------------|:--------:|:------:|:--------------:|
+| **wav2vec2** |  27.07%  | 25.00% |     10.65%     |
+| **data2vec** |  25.41%  | 25.00% |     10.23%     |
+
+![wav2vec2.png](images/wav2vec5.png)
+![data2vec.png](images/data2vec5.png)
+
+| Model        | Accuracy |  UAR   | Macro F1-score |
+|:-------------|:--------:|:------:|:--------------:|
+| **wav2vec2** |  27.07%  | 25.00% |     10.65%     |
+| **data2vec** |  25.41%  | 25.00% |     10.23%     |
+
+![wav2vec2.png](images/wav2vec10.png)
+![data2vec.png](images/data2vec10.png)
+
+## References
+
+1. https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html
