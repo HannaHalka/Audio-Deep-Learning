@@ -22,21 +22,35 @@
 
 ## Self-Supervised Approach
 
-| Model        | Accuracy |  UAR   | Macro F1-score |
-|:-------------|:--------:|:------:|:--------------:|
-| **wav2vec2** |  27.07%  | 25.00% |     10.65%     |
-| **data2vec** |  25.41%  | 25.00% |     10.23%     |
+Train 5 epoches:
+
+| Model        |  Accuracy  |    UAR     | Macro F1-score |
+|:-------------|:----------:|:----------:|:--------------:|
+| **wav2vec2** | **27.07%** | **25.00%** |   **10.65%**   |
+| **data2vec** |   25.41%   | **25.00%** |     10.23%     |
 
 ![wav2vec2.png](images/wav2vec5.png)
 ![data2vec.png](images/data2vec5.png)
 
-| Model        | Accuracy |  UAR   | Macro F1-score |
-|:-------------|:--------:|:------:|:--------------:|
-| **wav2vec2** |  27.07%  | 25.00% |     10.65%     |
-| **data2vec** |  25.41%  | 25.00% |     10.23%     |
+Train +5 epoches (10):
+
+| Model        |  Accuracy  |    UAR     | Macro F1-score |
+|:-------------|:----------:|:----------:|:--------------:|
+| **wav2vec2** | **27.07%** | **25.00%** |   **10.65%**   |
+| **data2vec** |   25.41%   | **25.00%** |     10.22%     |
 
 ![wav2vec2.png](images/wav2vec10.png)
 ![data2vec.png](images/data2vec10.png)
+
+Train 20 epoches:
+
+| Model        |  Accuracy  |    UAR     | Macro F1-score |
+|:-------------|:----------:|:----------:|:--------------:|
+| **wav2vec2** |   25.41%   |   25.00%   |     10.13%     |
+| **data2vec** | **27.62%** | **25.83%** |   **15.68%**   |
+
+![wav2vec2.png](images/wav2vec2-20.png)
+![data2vec.png](images/data2vec-20.png)
 
 ## References
 
