@@ -7,18 +7,31 @@
 ![sad.png](images/neutral.png)
 ![neutral.png](images/sad.png)
 
-### BaseLines
+### BaseLines 
 
-| Model                 |  Accuracy  |    UAR     | Macro F1-score |
-|:----------------------|:----------:|:----------:|:--------------:|
-| **Neural Net**        | **32.04%** | **31.78%** |   **31.82%**   |
-| **Random Forest**     | **32.04%** |   31.43%   |     30.16%     |
-| **Linear SVM**        |   29.28%   |   28.38%   |     27.28%     |
-| **AdaBoost**          |   28.73%   |   31.05%   |     28.43%     |
-| **Naive Bayes**       |   28.18%   |   31.29%   |     21.26%     |
-| **RBF SVM**           |   27.07%   |   27.07%   |     10.65%     |
-| **Decision Tree**     |   23.76%   |   20.94%   |     19.47%     |
-| **Nearest Neighbors** |   23.76%   |   14.20%   |     11.34%     |
+| Model (MFCC)          | Accuracy |  UAR   | Macro F1-score |
+|:----------------------|:--------:|:------:|:--------------:|
+| **AdaBoost**          |  44.75%  | 45.31% |     44.20%     |
+| **Nearest Neighbors** |  40.33%  | 40.02% |     39.56%     |
+| **Random Forest**     |  48.07%  | 48.63% |     47.48%     |
+
+| Model (f0)            | Accuracy |  UAR   | Macro F1-score |
+|:----------------------|:--------:|:------:|:--------------:|
+| **AdaBoost**          |  35.36%  | 35.60% |    32.79%      |
+| **Nearest Neighbors** |  34.81%  | 34.76% |     33.74%     |
+| **Random Forest**     |  33.70%  | 34.13% |     31.24%     |
+
+| Model (RMS)           | Accuracy |  UAR   | Macro F1-score |
+|:----------------------|:--------:|:------:|:--------------:|
+| **AdaBoost**          |  37.02%  | 37.51% |    36.71%      |
+| **Nearest Neighbors** |  25.97%  | 25.50% |     24.69%     |
+| **Random Forest**     |  39.23%  | 39.49% |     39.38%     |
+
+| Model (0crossing)     | Accuracy |  UAR   | Macro F1-score |
+|:----------------------|:--------:|:------:|:--------------:|
+| **AdaBoost**          |  34.81%  | 33.55% |     29.38%     |
+| **Nearest Neighbors** |  29.83%  | 29.26% |     28.47%     |
+| **Random Forest**     |  37.57%  | 37.16% |     36.58%     |
 
 ## Self-Supervised Approach
 
